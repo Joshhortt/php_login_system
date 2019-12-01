@@ -1,5 +1,5 @@
 # PHP Login-System
-complete Login System using PHP Prepared statements
+Complete login & registration system with PHP, MySQL and PDO
 
 ## Implementing User Authentication Mechanism
 User authentication is very common in modern web application. It is a security mechanism that is used to restrict unauthorized access to member-only areas and tools on a site.
@@ -13,12 +13,12 @@ In this section we'll create a login form where user can enter their username an
 
 ## Built With
 
-* [HTML3](http://html5doctor.com/) - The web framework used
+* [HTML5](http://html5doctor.com/) - The web framework used
 * [XAMPP](https://www.apachefriends.org/index.html) - Apache web server
-* [PHP] - Hypertext Preprocessor
-* [SQL] - SQL / PDO
-* [CSS3] - Cascading style sheets
-* [PDO] - PHP Data Objects
+* [PHP](https://www.php.net/) - Hypertext Preprocessor
+* [SQL](https://www.w3schools.com/sql/sql_intro.asp) - SQL 
+* [CSS3](https://www.w3schools.com/css/css_intro.asp) - Cascading style sheets
+* [PDO](https://www.php.net/manual/en/intro.pdo.php) - PHP Data Objects
 
 ## Advantages of using PDO
 
@@ -30,7 +30,7 @@ In case of PDO, a new PDO object must be created.
 ### Pre-requisites
 
 * [XAMPP](https://www.apachefriends.org/index.html) - Apache web server
-* [VS Code] Visual Studio Code editor
+* [CODE](https://code.visualstudio.com/) - Visual Studio Code editor
 
 ## Author
 
