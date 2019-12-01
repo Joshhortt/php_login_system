@@ -111,7 +111,25 @@ div.msg-erro  {
     border: 1px solid rgb(165,42,42); 
     border-radius: 30px;
     text-align: center;
-    
-    
 }
+
+div#benvindo   {
+    
+    color: rgb(255,255,255); 
+    width: 300px;
+    margin: 10px auto;
+    padding: 100px 100px;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgb(34,139,34);
+    border-radius: 30px;
+    text-align: center;
+}
+
+div#benvindo p  {
+    
+    line-height: 1.4;
+}
+
+
+
 

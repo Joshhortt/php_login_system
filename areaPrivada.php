@@ -10,7 +10,10 @@ session_start();                          // verificação que a sessão existe.
 }
 
 ?>
-
-SEJA BEM VINDO!
-<a href="sair.php"> Sair! </a>
+<link rel="stylesheet" href="css/estilo.css">
+<div id="benvindo">   <!-- como temos varias mensagens de erro criamos uma classe (dentro de uma div em codigo html)-->
+ <h1>Seja Bem Vindo!</h1><br>
+ <p>Obrigado por preencher o nosso formulário! Analisaremos o seu registo. Enviamos um e-mail com o código da sua pré-inscrição para endereço de e-mail que você forneceu.</p><br>
+<a href="sair.php"><strong> Sair!</strong></a></a>
+</div>
 

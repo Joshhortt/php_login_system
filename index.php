@@ -43,7 +43,7 @@ if(!empty($email) && !empty($senha))
         {
             if($u->logar($email, $senha))
             {
-                header("location: AreaPrivada.php");  // header vai encaminhar para a area privada
+                header("location: areaPrivada.php");  // header vai encaminhar para a area privada
             }
            else
            {
