@@ -1,0 +1,64 @@
+------------------------------------------------------------------------
+-- PHPMYADMIN --
+------------------------------------------------------------------------
+-- 1. Open PHPMYADMIN
+-- 2. New
+-- 3. SQL
+-- 4. CREATE DATABASE curso_uefa_2019
+-- 5. CREATE TABLE formandos + column parameters + datatype parameter
+-- 6. INSERT INTO formandos (...) VALUES (...)
+-- 7. 
+--------------------------------------------------------------------------------------------------------
+
+CREATE DATABASE curso_de_treinadores;
+
+USE curso_de_treinadores;
+
+CREATE TABLE usuarios  (
+     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
+	nome VARCHAR(30) NOT NULL,
+     telefone VARCHAR(30) NOT NULL,
+     email VARCHAR(40) NOT NULL,
+     senha VARCHAR(32) NOT NULL   
+);
+
+-------------------------------------------------------------------------------------
+index.php
+      <?php 
+
+        if(isset($_POST['nome']))
+        {
+            
+           
+            $email= addslashes($_POST['email']);
+            $senha= addslashes($_POST['senha']);
+          
+         verificar se está preenchido
+        if(!empty($email) && !empty($senha))
+        {
+
+        }else
+        {
+           echo "Preencha todos os campos!";
+        }  
+
+            ?> */
+------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

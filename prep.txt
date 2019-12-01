@@ -1,0 +1,41 @@
+------------------------------------------------------------------------------------------------------------
+-- XAMPP --
+------------------------------------------------------------------------------------------------------------
+
+-- 1. Abrir o browser (Firefox ou Chrome)
+-- 2. Escrever no buscador do Google "XAMPP"
+-- 3. Abrir o primeiro link: https://www.apachefriends.org/index.html
+-- 4. Clicar em Download para o Sistema Operativo do utilizador
+-- 5. Abrir na pasta Downloads ou no disco C: do Sistema Operativo, a pasta 'Xampp'.
+-- 6. Criar Atalho no ficheiro 'xampp.control' no Ambiente de Trabalho.
+-- 7. Criar a pasta do projecto do Website na pasta 'htdocs'.
+-- 8. Abrir o Atalho 'Xampp' no Ambiente de Trabalho para abrir o control panel do 'Xampp'.
+-- 9. Iniciar o Servidor Apache clicando no 'Start' no Modulo 'Apache' e 'start' no Modulo 'SQL'.
+-- 10.Criar ficheiro 'index.php' dentro do projecto criado por exemplo chamado 'xpto'
+-- 11.Copiar e colar a estrutura html dentro do ficheiro 'index.php'
+-- 12.Criar um uma linha com texto dentro de uma tag 'p', dentro do "body" e fazer guardar
+-- 13.Escrever no browser localhost/xpto/index.php para testar o website criado em php.
+-- 14. Se tudo Ok continuar com o projeto-.
+
+------------------------------------------------------------------------------------------------------------
+-- TESTE LOCALHOST NO BROWSER --
+------------------------------------------------------------------------------------------------------------
+
+-- 1. Criar ficheiro 'index.php' dentro do projecto criado por exemplo chamado 'xpto'
+-- 2. Copiar e colar a estrutura html dentro do ficheiro 'index.php' no editor de texto ATOM por exemplo
+-- 3. Criar um uma linha com texto dentro de uma tag 'p', dentro do "body" e fazer guardar
+-- 4. Escrever no browser 'http://localhost/xpto/index.php' para testar o website criado em php.
+-- 5. Se tudo Ok continuar com o projeto.
+
+------------------------------------------------------------------------------------------------------------
+-- TESTE LOCALHOST PHPMYADMIN --
+------------------------------------------------------------------------------------------------------------
+
+-- 1. Escrever no browser 'http://localhost/phpmyadmin' para entrar no Administrador de Base de dados.
+-- 2. No lado esquerdo clicar em 'New'
+-- 3. No topo clicar em 'SQL'
+-- 4. CREATE DATABASE 'xpto'
+-- 5. Tudo Ok. Continuar 'baseDados.txt'
+
+-------------------------------------------------------------------------------------------------------------
+

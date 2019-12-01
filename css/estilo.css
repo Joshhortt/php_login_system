@@ -1,0 +1,117 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* move o formulario todo para o topo */
+
+html {
+    background: url("https://images.unsplash.com/photo-1554331587-285152b85ce1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80") no-repeat center center fixed;
+    /* não repete a foto varias vezes quando minimizamos o ambinete de trabalho por exemplo para 90%; */
+    background-size: cover;
+    /* cria um tamanho de fundo coberto */
+    color: #fff;
+    font-family: arial;
+    /* Coloca o tipo de letra em Arial */
+}
+
+input {
+    display: block;
+    /* coloca um input debaixo do outro */
+    height: 55px;
+    /* altura do input */
+    width: 400px;
+    /* largura do input */
+    margin: 10px;
+    /* margem entre inputs */
+    border-radius: 30px;
+    /* aredonda a borda dos inputs */
+    border: 1px solid white;
+    /* dá uma borda solida de 1 px de cor preta */
+    font-size: 16px;
+    /* tamanho da letra */
+    padding: 10px 20px;
+    /* padding de 10px em cima e em baixo e 20px nos lados */
+    background-color: rgba(255, 255, 255, 0.01);
+    /*transparencia dos inputs*/
+    color: white;
+    outline: none;
+}
+
+div#corpo-form {
+    /*background-color: green;    da cor todo o corpo do formulario de cor verde. serve so para pre visualizção */
+    width: 420px;
+    /* da uma largura a div */
+    margin: 130px auto 0px auto;
+    /* vai centralizar 130px em cima, Zero em baixo e automatico dos lados */
+}
+
+div#corpo-form-Reg {
+    width: 420px;
+    /* da uma largura a div */
+    margin: 80px auto 0px auto;
+    /* vai centralizar 80px em cima, Zero em baixo e automatico dos lados */
+}
+
+div#corpo-form h1,
+div#corpo-form-Reg h1 {
+    color: white;
+    text-align: center;
+    /* aligna o texto do titulo ao centro */
+    padding: 20px;
+    /* cria padding a volta do titulo */
+}
+
+a {
+    color: white;
+    /* muda a cor do link para branco */
+    text-decoration: none;
+    /* tira o sublinhado do link que vem por defeito */
+    text-align: center;
+    display: block;
+    /* aligna o texto ao centro utilizando o display block pq o text-align do ink é Inline */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* quando passa o rato por cimka do link reaparece o sublinhado */
+}
+
+input[type=submit] {
+    background-color: #f4514e;
+    /* o botao submit adquire uma cor de fundo*/
+    border: none;
+    /* sem borda*/
+    cursor: pointer;
+    /* faz aparecer a 'mãozinha em vez da seta quando passamos por cima do botão com o rato*/
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    /* muda a cor do placeholder para branco*/
+}
+
+div#msg-sucesso  {
+    color: rgb(255,255,255); 
+    width: 370px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgb(34,139,34);
+    border-radius: 30px;
+    text-align: center;
+}
+
+div.msg-erro  {
+    color: rgb(255,255,255); 
+    width: 370px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: rgba(250,128,114,.3);
+    border: 1px solid rgb(165,42,42); 
+    border-radius: 30px;
+    text-align: center;
+    
+    
+}
+
